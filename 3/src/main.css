@@ -1,0 +1,140 @@
+body {
+    background-color: #EFEFEF;
+}
+
+ol, dd {
+    line-height: 1.5em;
+    text-align: justify;
+}
+
+dl {
+    line-height: 1.5em;
+}
+
+h1 {
+    font-size: 26px;
+    color: #92CD00;
+    text-align: center;
+}
+
+span {
+    background-color: yellow;
+}
+
+.main {
+    width: 800px;
+    height: 600px;
+
+    margin: 0 auto auto;
+
+    background-color: white;
+
+    font: 11pt Arial;
+}
+
+.fix {
+    position: relative;
+    top: -150px;
+}
+
+.fix2 {
+    position: relative;
+    top: -90px;
+}
+
+.menu {
+    width: inherit;
+    height: 30px;
+
+    /* padding: 4px; */
+
+    position: absolute;
+    top: 40px;
+
+    background-image: url("img/navigation-background.jpg");
+}
+
+.links {
+    margin-left: 120px;
+    padding: 4px;
+}
+
+.link {
+    margin: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    display: inline;
+
+    font-size: 18px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+}
+
+.content {
+    height: 420px;
+
+    /* font-weight: bold; */
+}
+
+.left {
+    width: 370px;
+
+    margin-left: 5px;
+
+    display: inline-block;
+
+    /* font-weight: bold; */
+}
+
+.text {
+    text-align: justify;
+    line-height: 1.5em;
+    color: #192402;
+}
+
+.underline {
+    text-decoration: underline;
+    margin-bottom: 0;
+}
+
+.nomargin {
+    margin-top: 0;
+}
+
+.right {
+    margin-left: 10px;
+    margin-right: 10px;
+
+    display: inline-block;
+}
+
+.footer {
+    width: 800px;
+    height: 30px;
+
+    position: absolute;
+
+    background-color: #81b518;
+
+    color: white;
+}
+
+.img {
+    width: 370px;
+    height: 270px;
+}
+
+#copy {
+    margin-top: 8px;
+
+    text-align: center;
+}
+
+#leaf {
+    width: 120px;
+    height: 120px;
+
+    position: relative;
+}

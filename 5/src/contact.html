@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <title>ФИНКИ</title>
+</head>
+<body>
+<header>
+    <span>Finki</span><span>Page</span>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a class="active" href="contact.html">Contact</a>
+        <a href="info.html">Info</a>
+    </nav>
+</header>
+<div class="background">
+    <div class="main">
+        <h3>Contact Form</h3>
+
+        <div class="form">
+            <div class="left">
+                <form>
+                    <label for="firstname">First Name <br></label>
+                    <input type="text" id="firstname" placeholder="Your name">
+                    <br>
+                    <label for="dateofbirth">Date of birth <br></label>
+                    <input type="date" id="dateofbirth">
+                    <br>
+                    <label for="country">Country <br></label>
+                    <select id="country">
+                        <option value="Australia">Australia</option>
+                        <option value="Canada">Canada</option>
+                        <option value="USA">USA</option>
+                        <option value="Mexico">Mexico</option>
+                    </select>
+                    <br>
+                    <label for="cv">CV</label>
+                    <input type="file" id="cv">
+                </form>
+            </div>
+            <div class="right">
+                <form>
+                    <label for="lastname">Last name <br></label>
+                    <input type="text" id="lastname" placeholder="Your last name">
+                    <br>
+                    <label for="subject">Subject <br></label>
+                    <textarea id="subject" placeholder="Write something..."></textarea>
+                </form>
+            </div>
+            <input type="submit" value="Submit">
+        </div>
+    </div>
+</div>
+</body>
+</html>

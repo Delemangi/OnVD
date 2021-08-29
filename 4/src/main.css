@@ -1,0 +1,245 @@
+body {
+    font: 14pt "Times New Roman";
+}
+
+header {
+    width: 100%;
+    height: 50px;
+    border-bottom: solid black 2px;
+    padding-bottom: 20px;
+    margin-bottom: 5px;
+}
+
+header img {
+    margin-left: 150px;
+}
+
+nav, .nav {
+    margin-right: 150px;
+    float: right;
+    line-height: 60px;
+}
+
+nav a, .nav a {
+    text-decoration: none;
+    margin-left: 75px;
+    color: black;
+    text-transform: uppercase;
+}
+
+nav a.current, .nav a.current {
+    color: green;
+}
+
+div.first {
+    width: 100%;
+    height: 530px;
+    background-color: blue;
+    margin-bottom: 15px;
+}
+
+div.first div {
+    margin-left: 150px;
+    float: left;
+    color: white;
+    font-size: 38pt;
+    padding-top: 120px;
+}
+
+div.first img {
+    float: right;
+    margin-right: 150px;
+}
+
+div.second {
+    background-color: lightgreen;
+    width: 100%;
+    height: 450px;
+    margin-bottom: 15px;
+}
+
+div.top {
+    padding-top: 20px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 30px;
+}
+
+div.bottom {
+    padding-top: 20px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 30px;
+}
+
+div.second div.top img {
+    width: 300px;
+    border-radius: 25px;
+    float: left;
+    margin-right: 20px;
+}
+
+div.second div.top div {
+    padding-top: 15px;
+    font-size: 12pt;
+    color: black;
+    text-align: justify;
+}
+
+div.second div.bottom img {
+    width: 300px;
+    border-radius: 25px;
+    float: right;
+    margin-left: 20px;
+}
+
+div.second div.bottom div {
+    padding-top: 15px;
+    font-size: 12pt;
+    color: black;
+    text-align: justify;
+}
+
+footer {
+    width: 100%;
+    height: 50px;
+    border-top: solid black 2px;
+    padding-bottom: 20px;
+}
+
+footer p {
+    display: inline-block;
+    margin-left: 150px;
+}
+
+div.about {
+    width: 100%;
+    height: 40px;
+    background-color: lightgreen;
+    margin-bottom: 10px;
+}
+
+div.about p:nth-of-type(1) {
+    margin-left: 150px;
+    line-height: 40px;
+    color: white;
+    font-weight: bold;
+    display: inline;
+}
+
+div.about p:nth-of-type(2) {
+    margin-right: 150px;
+    display: inline;
+    float: right;
+    color: white;
+    font-size: 12pt;
+    font-weight: bold;
+    line-height: 15px;
+}
+
+div.main {
+    background-color: lightgray;
+    width: 100%;
+    height: 500px;
+    margin-bottom: 10px;
+}
+
+#header {
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 50px;
+}
+
+#people {
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+div.main div#header h1 {
+    color: white;
+    font-size: 16pt;
+    text-align: center;
+    position: relative;
+    top: 15px;
+    border-top: solid black 1px;
+    border-bottom: solid black 1px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+div.person {
+    display: inline-block;
+    float: left;
+    border-radius: 25px;
+    background-color: white;
+    width: 270px;
+    height: 380px;
+    margin: 0 63px;
+}
+
+div.person img {
+    margin: 20px 10px -10px;
+}
+
+div.person h2 {
+    text-align: center;
+    border-bottom: solid black 2px;
+    padding-bottom: 10px;
+}
+
+div.person p {
+    font-size: 12pt;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: justify;
+}
+
+div.main div#contact {
+    position: relative;
+    top: 50px;
+    left: 150px;
+    color: white;
+}
+
+#map {
+    float: right;
+    width: 500px;
+    height: 320px;
+    margin-right: 300px;
+    position: relative;
+    bottom: 120px;
+}
+
+div.main div#contact div {
+    color: black;
+    font-size: 12pt;
+}
+
+div.main div#contact div:first-of-type {
+    margin-bottom: 20px;
+}
+
+h4 {
+    color: black;
+}
+
+#address {
+    float: right;
+}
+
+p.address {
+    color: black;
+    font-size: 12pt;
+    line-height: 5px;
+}
+
+#neznamvekje {
+    height: 220px;
+}
+
+#theaddress {
+    float: right;
+    position: relative;
+    left: 500px;
+}
